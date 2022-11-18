@@ -34,8 +34,8 @@ class ListStudent extends React.Component{
                 <td>{student.username}</td> 
                 <td>{student.email}</td>
                 <td>
-                    <Link to={'update/'+student.id} className="btn btn-info mr-2">Update</Link>
-                    <button onClick={()=>this.deleteData(student.id)} className="btn btn-danger" >Delete</button>
+                    <Link to={'student-update/'+student.id} className="btn btn-info mr-2">Update</Link>
+                    <button onClick={()=>this.deleteData(student.id)} className="btn btn-danger" >Disable</button>
                 </td>
             </tr>
         );
