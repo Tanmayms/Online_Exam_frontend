@@ -9,6 +9,7 @@ function Home() {
     <div>
         <Link to="/student-list"><button type="button" className="btn btn-primary ">Student Info</button></Link>
         <Link to="/staff-list"><button type="button" className="btn btn-primary m-3">Staff Info</button></Link>
+        <Link to="/student-register"><button type="button" className="btn btn-primary">Register Student</button></Link>
     </div>
   );
 }
